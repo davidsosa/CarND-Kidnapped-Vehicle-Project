@@ -145,7 +145,6 @@ inline bool read_control_data(std::string filename, std::vector<control_s>& posi
 
 		iss_pos >> velocity;
 		iss_pos >> yawrate;
-
 		
 		// Set values
 		meas.velocity = velocity;
